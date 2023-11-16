@@ -3,4 +3,4 @@
 Creator, Architect and Team Leader of Innovative Web and Marketing Technology Solutions
 
 ## Live Site
-[Steve Westfall](https://scwestfall.ithub.io)
+[Steve Westfall](https://scwestfall.github.io/index)
