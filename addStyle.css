@@ -351,7 +351,7 @@
   .project__description {
     margin-top: 1em;
   }
-  .project__description img {
+  .project__image {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
