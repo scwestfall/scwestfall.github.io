@@ -351,6 +351,12 @@
   .project__description {
     margin-top: 1em;
   }
+  .project__description img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
   
   .project__stack {
     display: flex;
@@ -363,11 +369,17 @@
     margin: 0.5em;
     font-weight: 500;
     font-size: 0.8rem;
-    color: var(--clr-fg-alt);
+    color: #2a2f4c;
   }
   
   .project .link--icon {
     margin-left: 0.5em;
+  }
+
+  .project__video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .skills__grid {
