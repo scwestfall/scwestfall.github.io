@@ -48,7 +48,7 @@
             </p>
             <p class="about__desc">
               The Ford website was built on Adobe Experience Manager. The site uses Adobe Tags (formerly Adobe Launch) and Adobe Analytics for data 
-              collection. Together with Adobe Target and Adobe Audince Manager, this data ecosystem is used to deliver personalized experiences, 
+              collection. Together with Adobe Target and Adobe Audience Manager, this data ecosystem is used to deliver personalized experiences, 
               product recommendations, journey orchestration, and optimization testing. We worked with our Ford business clients to develop data 
               layer standards and implementation guides for development teams, ensuring the data we wanted to collect or use as a signal to take 
               action against was available on the page when we needed it.
@@ -56,8 +56,42 @@
         </div>
         <div class="project__video">
             <div class="project__description">
-                <img class="project__image" src="../assets/ford-hp-personalization.png" />
+                <img class="project__image" src="../assets/ford-hp-return-visit-personalization.png" />
             </div>
+        </div>
+        <div class="section about">
+          <p class="about__desc">
+            We collected data points about what our visitors viewed or searched for on ford.com and used Adobe Target to deliver relevant content 
+            and messaging on subsequent visits. As you can see in the image above, when a visitor views the home page on their intial visit, 
+            they are served "<i>default content</i>" that has been developed for the page. As the visitor navigates around the website looking at vehicle
+            pages, vehicle features and other content, we used a mix of Adobe Analytics and cookies to display relevant context-based content to 
+            the visitor on subsequent visits. You'll notice on the right side of the image above that the billboard component content has been 
+            updated to show a Ford Explorer as opposed to the Ford F-150 shown on the intial visit. 
+          </p>
+          <p class="about__desc">
+            Additonally, there is also a rules-based component that becomes populated with up to the last three vehicles visited by our visitor. This
+            personalization has now become the expected experience when vsiting ford.com. Our results showed that our Vehicle Aware experience resulted
+            in a 71% increase in our Purchase Intent (PI) score as well as a 17% increase in click-thru-rate (CTR) on our personalized home page 
+            billboard content.
+          </p>
+        </div>
+        <div class="section about">
+          <h3>Regional Targeted Rollout of Features</h3>
+          <p class="about__desc">
+            Ford clients wanted to test their new eCommerce functionality over a limited geographical area and across only two vehicles, the 2022 Mustang 
+            Mach-e and the 2022 Escape. We leveraged Adobe Target to inject the new 3-tabbed Adobe Experience Manager (AEM) component into the home page, 
+            vehicle home page and model details pages of the two vehicles for visitors geographically located in New York, New Jersey and Massachussets.
+          </p>
+          <p class="about__desc">
+            This was purely a Journey Orchestration activity with Adobe Analytics implemented throughout the journey for data collection. We also ensured
+            that we had Akamai redirects and fail-over pages in place for edge cases so that we could serve a graceful experience to visitors trying to access
+            the content from outside the designated geographical regions. 
+          </p>
+          <div class="project__video">
+            <div class="project__description">
+                <img class="project__image" src="../assets/ford-entry-point-orchestration.png" />
+            </div>
+        </div>
         </div>
     </main>
 
