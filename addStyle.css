@@ -206,6 +206,10 @@
     display: flex;
     align-items: center;
   }
+
+  .pad__top {
+    padding-top: 1.5em;
+  }
   
   .header {
     height: 8em;
@@ -356,6 +360,11 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+  }
+
+  .project__dblImage {
+    float: left;
+    padding: 1em;
   }
   
   .project__stack {
@@ -541,5 +550,11 @@
   
     .scroll-container {
       display: none;
+    }
+    .project__dblImage {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
     }
   }
