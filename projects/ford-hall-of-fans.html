@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@400;500;700&display=swap"  rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="stylesheet" href="../addStyle.css" />
+    <title>Ford Hall of Fans Sweepstakes</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://stevewestfall.dev" class="link">SW</a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+            <li class="nav__list-item">
+                <a class="link link--nav" href="../index.html">Home</a>
+            </li>
+            <li class="nav__list-item">
+                <a class="link link--nav" href="project-list.html">See More of My Work</a>
+            </li>
+            <li class="nav__list-item">
+                <a class="link link--nav" href="../index.html#contactMe">Contact Me</a>
+            </li>
+        </ul>
+
+        <button type="button" title="Change Theme" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+        <!-- About the Project -->
+        <div class="section about">
+          <h2 class="about__role">Ford Hall of Fans Sweepstakes</h2>
+          <p class="about__desc">
+            The Ford Hall of Fans was created in partnership with the <a href="https://www.profootballhof.com/" target="_blank" class="link">Pro 
+            Football Hall of Fame.</a> The <a href="https://nfl.com" target="_blank" class="link">National Football League (NFL)</a> is wildly 
+            popular and there are team Super Fans throughout the league. Ford Motor Company and the Pro Football Hall of Fame decided to honor 
+            these dedicated fans not only with a brand new Ford F-150, but also with  a visit from an NFL hall-of-famer, their own enshrinement ceremony 
+            and permanent spot in the Hall!
+          </p>
+          <div class="project__video">
+            <div class="project__description">
+                <img class="project__image" src="../assets/ford-hof-hp.png" />
+            </div>
+          </div>
+        </div>
+        <div class="section about">
+          <p class="about__desc">
+            The sweepstakes was open nationwide for fan submissions from the weekend of the Hall of Fame Game through roughly three 
+            quarters of the season. Once closed, submissions were carefully reviewed by a committee resulting in the selection of the 
+            final six contestants. The final six were then added to the website and we opened a voting period where visitors could vote 
+            for their favorite fan once per day during the duration of the contest. 
+          </p>
+          <p class="about__desc">
+            This website was built using PHP on the Laravel framework with a MySQL database for storing submissions and voting results. Although 
+            I don't have any screenshots, we also developed a private sweepstakes administration interface where the committee could login 
+            to review submissions and vote counts in real-time.
+          </p>
+        </div>
+        <div class="project__video">
+          <div class="project__description">
+              <img class="project__dblImage" src="../assets/ford-hof-sweepstakes.png" />
+              <img class="project__dblImage" src="../assets/ford-hof-voting.png" />
+          </div>
+        </div>
+        <div class="section about">
+          <p class="about__desc">
+            This amazing program for football fans ran for four good years, but was unfortunately discontinued after the 2022 
+            enshrinement ceremony. The following fans now have their own special place within the hallowed halls of the Pro 
+            Football Hall of Fame alongside NFL legends past and present. If you have a chance, stop by the Hall in Canton, Ohio and 
+            check out the display.
+          </p>
+          <p class="about__desc">
+            <b>Class of 2022:</b> Michael Banks, a Detroit Lions fan; Amy Nolan, a New York Giants fan; and Terence Young, a Chicago Bears fan.
+          </p>
+          <p class="about__desc"> 
+            <b>Class of 2021:</b> Arizona Cardinals fan Kristi Brown, Las Vegas Raiders fan Wayne Mabry, aka, “the Violator,” and Cleveland 
+            Browns fan Ray Prisby, aka, “Showdawg.”
+          </p>
+          <p class="about__desc">
+            <b>Class of 2020:</b> Kansas City Chiefs fan Janel Carbajo, aka, “Puppet Lady,” Tampa Bay Buccaneers fan Keith Kunzig, aka, 
+            “Big Nasty,” and Denver Broncos fan Rob Garner.
+          </p>
+          <p class="about__desc">
+            <b>Class of 2019:</b> Miami Dolphins fan Roger Avila, aka, “Dolfan Maniac,” Pittsburgh Steelers fan Rick Holman and Chicago Bears 
+            fan Don Wachter, aka, “Bearman.”
+          </p>
+        </div>
+    </main>
+
+    <footer class="footer">
+      <a href="https://github.com/scwestfall" class="link footer__link"> Created By Steve Westfall</a>
+    </footer>
+
+    <div class="scroll-container">
+        <div class="scroll-top">
+            <a aria-label="Scroll up" href="#top">
+                <i aria-hidden="true" class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../addFunctionality.js"></script>
+  </body>
+</html>
